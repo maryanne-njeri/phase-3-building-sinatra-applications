@@ -9,6 +9,6 @@ Bundler.require(:default, ENV['RACK_ENV'])
 # Require in all files in 'app' directory
 require_all 'app'
 
-require_relative "./config/environment"
+# require_relative "./config/environment"
 
-run ApplicationController
+# run ApplicationController
